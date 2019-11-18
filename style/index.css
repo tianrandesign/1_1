@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-button:focus {outline:0;}
-/*Remove Chrome button click blue border*/
+body{margin: 0;}
 
 #lottie {
   background-color: #EDEDED;
@@ -12,18 +11,4 @@ button:focus {outline:0;}
   transform: translate3d(0, 0, 0);
   opacity: 1;
 	border-radius: 8px;
-}
-
-.start, .stop{
-	width: 30vh;
-	height: 8vh;
-    opacity: 1;
-    border: none;
-    display: inline-block;
-	position: fixed;
-    bottom: 1vh;
-	left: 0;
-    right: 0;
-	margin: auto;
-	cursor:pointer; 
 }
